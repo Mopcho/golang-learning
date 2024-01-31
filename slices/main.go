@@ -12,6 +12,12 @@ func variadicSum(nums ...int) int {
 	return sum
 }
 
+func printNames(names ...string) {
+	for i := 0; i < len(names); i++ {
+		fmt.Printf("Hi %v\n", names[i])
+	}
+}
+
 func main() {
 	mySLice := make([]int, 0, 10)
 
@@ -19,5 +25,10 @@ func main() {
 
 	sum := variadicSum(1, 2, 3)
 
-	fmt.Printf("%v", sum)
+	fmt.Printf("%v\n", sum)
+
+	names := []string{"Bob", "Marley", "Rose"}
+
+	printNames(names...)
+
 }
