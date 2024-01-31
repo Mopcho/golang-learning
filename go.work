@@ -1,3 +1,6 @@
 go 1.21.6
 
-use ./type-assertions
+use (
+	./errors
+	./type-assertions
+)
