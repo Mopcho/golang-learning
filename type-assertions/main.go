@@ -5,13 +5,14 @@ import (
 )
 
 func getExpenseReport(e expense) (string, float64) {
-	if c, ok := e.(email); ok {
-		fmt.Printf("%s is an email\n", c.toAddress)
+	switch c := e.(type) {
+	case email:
+		fmt.Printf("%v is email \n", c.toAddress)
 		return c.toAddress, c.cost()
-	} else if c, ok := e.(sms); ok {
-		fmt.Printf("%s is a phone number\n", c.toPhoneNumber)
+	case sms:
+		fmt.Printf("%v is phone \n", c.toPhoneNumber)
 		return c.toPhoneNumber, c.cost()
-	} else {
+	default:
 		return "", 0.0
 	}
 }
