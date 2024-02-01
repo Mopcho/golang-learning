@@ -3,6 +3,7 @@ go 1.21.6
 use (
 	./errors
 	./maps
+	./maps_mutations
 	./slices
 	./type-assertions
 )
