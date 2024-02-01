@@ -1,6 +1,7 @@
 go 1.21.6
 
 use (
+	./advanced_functions
 	./errors
 	./maps
 	./maps_count_instances
