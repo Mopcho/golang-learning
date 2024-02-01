@@ -5,6 +5,7 @@ use (
 	./maps
 	./maps_count_instances
 	./maps_mutations
+	./maps_nested
 	./slices
 	./type-assertions
 )
