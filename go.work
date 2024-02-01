@@ -2,6 +2,7 @@ go 1.21.6
 
 use (
 	./advanced_functions
+	./channels
 	./concurrency
 	./errors
 	./maps
