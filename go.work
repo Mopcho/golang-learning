@@ -7,6 +7,7 @@ use (
 	./maps_count_instances
 	./maps_mutations
 	./maps_nested
+	./pointers
 	./slices
 	./type-assertions
 )
