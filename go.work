@@ -5,6 +5,7 @@ use (
 	./buffered-channels
 	./channel-tokens
 	./channels
+	./closing-channels
 	./concurrency
 	./errors
 	./maps
