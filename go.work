@@ -6,6 +6,8 @@ use (
 	./channel-ranges
 	./channel-tokens
 	./channels
+	./channels-default-select
+	./channels-select
 	./closing-channels
 	./concurrency
 	./errors
