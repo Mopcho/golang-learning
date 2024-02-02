@@ -3,6 +3,7 @@ go 1.21.6
 use (
 	./advanced_functions
 	./buffered-channels
+	./channel-ranges
 	./channel-tokens
 	./channels
 	./closing-channels
